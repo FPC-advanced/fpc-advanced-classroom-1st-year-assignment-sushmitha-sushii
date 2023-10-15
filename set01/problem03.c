@@ -23,12 +23,11 @@ int add(int a, int b)
 {
     int sum=0 ;
     sum = a+b;
-    {
-        return sum;
-    }
+    return sum;
+    
 }
 void output(int a, int b, int sum)
 {
-    printf("The sum of two numbers %d and %d is %d",a , b ,sum);
+    printf("The sum of two numbers %d and %d is %d \n",a , b ,sum);
 }
 
