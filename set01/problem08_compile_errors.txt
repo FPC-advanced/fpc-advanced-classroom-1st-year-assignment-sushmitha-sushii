@@ -1,2 +1,0 @@
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set01\problem08.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
