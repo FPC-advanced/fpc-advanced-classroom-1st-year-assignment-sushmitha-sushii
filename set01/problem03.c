@@ -31,4 +31,3 @@ void output(int a, int b, int sum)
 {
     printf("The sum of two numbers %d and %d is %d \n",a , b ,sum);
 }
-
