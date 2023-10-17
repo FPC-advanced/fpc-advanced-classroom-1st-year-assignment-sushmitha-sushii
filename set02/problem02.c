@@ -9,5 +9,6 @@ int main()
 int input_side()
 {
     int x ;
-    printf("Enter the ")
+    printf("Enter the value of x: \n");
+    scanf("%d",&x)
 }
