@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231017121121
+Start time: 20231017121534
 Username: DESKTOP-QPSRBLA\Admin
 RunAs User: DESKTOP-QPSRBLA\Admin
 Configuration Name: 
@@ -15,10 +15,4 @@ CLRVersion: 4.0.30319.42000
 WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
-**********************
-Transcript started, output file is c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02_session.txt
-PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii> Start-Transcript -Path "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02_session.txt"
-**********************
-Windows PowerShell transcript end
-End time: 20231017121128
 **********************

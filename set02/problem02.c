@@ -1,0 +1,1 @@
+// find if a triangle is scalene.
