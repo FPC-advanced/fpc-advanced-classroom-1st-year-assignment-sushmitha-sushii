@@ -4,7 +4,11 @@ int check_scalene(int a, int b, int c);
 void output(int a, int b, int c, int isscalene);
 int main()
 {
-    int a , b , c , 
+    int a , b , c , isscalene;
+    a=input();
+    b=input();
+    c=input();
+    
 
 }
 int input_side()
