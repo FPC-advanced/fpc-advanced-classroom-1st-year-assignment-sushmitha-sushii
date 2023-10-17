@@ -8,7 +8,7 @@ int main()
     a=input();
     b=input();
     c=input();
-    
+
 
 }
 int input_side()
@@ -17,4 +17,10 @@ int input_side()
     printf("Enter the value of x: \n");
     scanf("%d",&x);
     return x ;
+}
+int check_scalene(int a, int b, int c)
+{
+    int isscalene;
+    if(a)
+
 }
