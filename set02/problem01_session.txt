@@ -21,3 +21,9 @@ PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem01.exe
 The area of triangle for base 4.000000 and height 3.000000 is 6.000000
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii> git commit -m "committed 10/19/2023, 4:51:47 PM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii> git push
+
