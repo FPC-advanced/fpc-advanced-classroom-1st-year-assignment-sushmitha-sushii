@@ -21,6 +21,6 @@ int input_side()
 int check_scalene(int a, int b, int c)
 {
     int isscalene;
-    if(a)
+    
 
 }
