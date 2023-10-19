@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231019164729
+Start time: 20231019165128
 Username: DESKTOP-QPSRBLA\Admin
 RunAs User: DESKTOP-QPSRBLA\Admin
 Configuration Name: 
 Machine: DESKTOP-QPSRBLA (Microsoft Windows NT 10.0.19045.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
-Process ID: 4880
+Process ID: 7628
 PSVersion: 5.1.19041.3031
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
@@ -17,13 +17,3 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem01_session.txt
-PS C:\Users\Admin\github-classroom\FPC-advanced> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem01.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem01.exe" 2>&1
-
-PS C:\Users\Admin\github-classroom\FPC-advanced> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem01.exe
-The area of triangle for base 2.000000 and height 1.000000 is 1.000000
-PS C:\Users\Admin\github-classroom\FPC-advanced> git add .
-
-PS C:\Users\Admin\github-classroom\FPC-advanced> git commit -m "committed 10/19/2023, 4:48:09 PM"
-
-PS C:\Users\Admin\github-classroom\FPC-advanced> git push
-
