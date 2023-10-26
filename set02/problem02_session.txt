@@ -1,24 +1,23 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231019161736
+Start time: 20231026160702
 Username: DESKTOP-QPSRBLA\Admin
 RunAs User: DESKTOP-QPSRBLA\Admin
 Configuration Name: 
 Machine: DESKTOP-QPSRBLA (Microsoft Windows NT 10.0.19045.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
-Process ID: 4880
-PSVersion: 5.1.19041.3031
+Process ID: 12208
+PSVersion: 5.1.19041.3570
 PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
-BuildVersion: 10.0.19041.3031
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3570
+BuildVersion: 10.0.19041.3570
 CLRVersion: 4.0.30319.42000
 WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02_session.txt
-PS C:\Users\Admin\github-classroom\FPC-advanced> Stop-Transcript
-**********************
-Windows PowerShell transcript end
-End time: 20231019162735
-**********************
+PS C:\Users\Admin\github-classroom\FPC-advanced> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02.exe" 2>&1
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02.exe" 2>&1
+
