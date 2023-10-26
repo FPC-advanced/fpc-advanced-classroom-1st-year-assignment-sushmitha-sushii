@@ -21,3 +21,95 @@ PS C:\Users\Admin\github-classroom\FPC-advanced> gcc -g "c:\Users\Admin\github-c
 
 PS C:\Users\Admin\github-classroom\FPC-advanced> gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02.exe" 2>&1
 
+PS C:\Users\Admin\github-classroom\FPC-advanced> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02.exe
+4
+The triangle with sides 5 ,6 and 4 is scalene
+PS C:\Users\Admin\github-classroom\FPC-advanced> c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02\problem02.exe
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Admin\github-classroom\FPC-advanced> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> git commit -m "committed 10/26/2023, 4:07:20 PM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> git push 
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> git push main
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> cd set02
+cd : Cannot find path 'C:\Users\Admin\github-classroom\FPC-advanced\set02' because it does not exist.
+At line:1 char:1
++ cd set02
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...-advanced\set02:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Users\Admin\github-classroom\FPC-advanced\set02' because it does not exist.
+At line:1 char:1
++ cd set02
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...-advanced\set02:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> dr
+dr : The term 'dr' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ dr
++ ~~
+    + CategoryInfo          : ObjectNotFound: (dr:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+dr : The term 'dr' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling
+of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ dr
++ ~~
+    + CategoryInfo          : ObjectNotFound: (dr:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> dir
+
+
+    Directory: C:\Users\Admin\github-classroom\FPC-advanced
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10-10-2023     12:26                fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii
+
+
+PS C:\Users\Admin\github-classroom\FPC-advanced> cd .\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii> dir
+
+
+    Directory: C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        16-10-2023     12:55                set01
+d-----        26-10-2023     16:07                set02
+d-----        10-10-2023     12:26                set03
+d-----        10-10-2023     12:26                set04
+d-----        10-10-2023     12:26                set05
+-a----        10-10-2023     12:26            495 .gitignore
+-a----        10-10-2023     12:26             65 .replit
+-a----        10-10-2023     12:26            276 README.md
+-a----        10-10-2023     12:26             57 replit.nix
+-a----        10-10-2023     12:26          99994 Untitled-1.txt
+
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii> cd .\set02\
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02> git add .
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02> git commit -m "committed 10/26/2023, 4:08:46 PM"
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02> git push
+
+PS C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set02> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231026161617
+**********************
