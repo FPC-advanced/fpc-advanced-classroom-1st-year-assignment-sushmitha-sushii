@@ -51,3 +51,22 @@
 Breakpoint 1 at 0x401489: file c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set01\problem05.c, line 12.
 +b 13
 Breakpoint 2 at 0x4014a9: file c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set01\problem05.c, line 13.
++r
+Starting program: C:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set01/./problem05.exe 
+[New Thread 8028.0x2ecc]
+[New Thread 8028.0x1e64]
+
+Breakpoint 1, main ()
+    at c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set01\problem05.c:12
+12	    largest=compare(a,b,c);
++print a
+$1 = 1
++print b
+$2 = 2
++print c
+$3 = 3
++n
+
+Breakpoint 2, main ()
+    at c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set01\problem05.c:13
+13	    output(a,b,c,largest);
