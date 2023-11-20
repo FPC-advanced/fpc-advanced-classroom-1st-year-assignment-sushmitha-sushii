@@ -1,0 +1,49 @@
++l
+1	//To compare three numbers using pass by value
+2	#include<stdio.h>
+3	int input();
+4	int compare(int a, int b, int c);
+5	void output(int a, int b, int c, int largest);
+6	int main()
+7	{
+8	    int a , b , c ,largest;
+9	    a=input();
+10	    b=input();
++l
+11	    c=input();
+12	    largest=compare(a,b,c);
+13	    output(a,b,c,largest);
+14	    return 0;
+15	}
+16	int input()
+17	{
+18	    int x ;
+19	    printf("Enter a number: \n");
+20	    scanf("%d",&x);
++l
+21	    return x;
+22	}
+23	int compare(int a, int b, int c)
+24	{
+25	    int largest;
+26	    if(a>=b && a>=c)
+27	    {
+28	        largest = a;
+29	    }
+30	    else if (b>=a && b>=c)
++l
+31	    {
+32	        largest=b;
+33	    }
+34	    else 
+35	    {
+36	        largest=c;
+37	    }
+38	    return largest;
+39	}
+40	void output(int a, int b, int c, int largest)
++l
+41	{
+42	    printf("The largest of the three numbers %d , %d and %d is %d",a,b,c,largest);
+43	}
+44	
