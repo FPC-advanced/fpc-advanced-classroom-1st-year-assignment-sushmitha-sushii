@@ -7,12 +7,8 @@ int main()
 {
     int num1, den1, num2, den2, res_num, res_den;
     input(&num1, &den1, &num2, &den2);
-
-    // Add the fractions
     add(num1, den1, num2, den2, &res_num, &res_den);
-
-    // Output the fractions and their sum
     output(num1, den1, num2, den2, res_num, res_den);
-
-    return 0;
+     return 0;
 }
+
