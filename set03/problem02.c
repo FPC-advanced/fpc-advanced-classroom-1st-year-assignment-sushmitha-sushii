@@ -33,10 +33,20 @@ int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3)
     side1 = distance(x1, y1, x2, y2);
     side2 = distance(x2, y2, x3, y3);
     side3 = distance(x3, y3, x1, y1);
-
-    if (side1 + side2 > side3 && side2 + side3 > side1 && side3 + side1 > side2) {
+    if (side1 + side2 > side3 && side2 + side3 > side1 && side3 + side1 > side2) 
+    {
         return 1; // It's a triangle
     } else {
         return 0; // It's not a triangle
+    }
+}
+void output(float x1, float y1, float x2, float y2, float x3, float y3, int result) 
+{
+    if (result) 
+    {
+        printf("The points (%.2f, %.2f), (%.2f, %.2f), (%.2f, %.2f) form a triangle.\n", x1, y1, x2, y2, x3, y3);
+    } else 
+    {
+        printf("The points (%.2f, %.2f), (%.2f, %.2f), (%.2f, %.2f) do not form a triangle.\n", x1, y1, x2, y2, x3, y3);
     }
 }
