@@ -22,13 +22,14 @@ void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float
     printf("Enter coordinates of third point (x y): ");
     scanf("%f %f", x3, y3);
 }
-float distance(float x1, float y1, float x2, float y2) {
+float distance(float x1, float y1, float x2, float y2) 
+{
     return sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
 }
 
-int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3) {
+int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3) 
+{
     float side1, side2, side3;
-
     side1 = distance(x1, y1, x2, y2);
     side2 = distance(x2, y2, x3, y3);
     side3 = distance(x3, y3, x1, y1);
