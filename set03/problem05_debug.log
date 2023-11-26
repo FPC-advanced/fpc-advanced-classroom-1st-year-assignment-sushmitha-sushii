@@ -1,0 +1,6 @@
++cd "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set03"
+"c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set03": Invalid argument.
++gcc -g "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set03\problem05.c" -o "c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set03\problem05.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set03\problem05.exe"
+Undefined command: "".  Try "help".
