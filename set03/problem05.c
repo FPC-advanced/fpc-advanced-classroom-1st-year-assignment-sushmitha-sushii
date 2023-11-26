@@ -42,15 +42,17 @@ void erotosthenes_sieve(int n, int a[n])
      {
         if (isPrime[p - 2] == true)
          {
-            for (int i = p * p - 2; i <= n; i += p) 
+            for (int i = p * p - 2; i < n; i += p) 
             {
                 isPrime[i - 2] = false;
             }
         }
     }
     int index = 0;
-    for (int i = 0; i < n; i++) {
-        if (isPrime[i]) {
+    for (int i = 0; i < n; i++)
+     {
+        if (isPrime[i])
+         {
             a[index++] = i + 2;
         }
     }
