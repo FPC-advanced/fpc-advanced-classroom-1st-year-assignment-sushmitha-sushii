@@ -1,0 +1,8 @@
++l
+1	// 1. Write a C program to print your name.
+2	#include<stdio.h>
+3	int main()
+4	{
+5	    printf("Sushmitha . S \n");
+6	    return 0 ;
+7	}
