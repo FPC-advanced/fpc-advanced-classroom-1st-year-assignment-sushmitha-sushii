@@ -8,17 +8,20 @@ int main()
     output(line);
     return 0;
 }
-
-typedef struct point {
-    float x, y;
-} Point;
-
-typedef struct line {
+typedef struct point 
+{
+float x, y;
+} 
+Point;
+typedef struct line 
+{
     Point p1, p2;
     float distance;
-} Line;
+} 
+Line;
 
-Point input_point() {
+Point input_point() 
+{
     Point p;
     printf("Enter x coordinate: ");
     scanf("%f", &p.x);
