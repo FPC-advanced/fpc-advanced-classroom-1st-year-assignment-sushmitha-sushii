@@ -29,8 +29,8 @@ Point input_point()
     scanf("%f", &p.y);
     return p;
 }
-
-Line input_line() {
+Line input_line() 
+{
     Line l;
     printf("Enter coordinates for Point 1:\n");
     l.p1 = input_point();
@@ -38,13 +38,12 @@ Line input_line() {
     l.p2 = input_point();
     return l;
 }
-
-void find_length(Line *l) {
+void find_length(Line *l) 
+{
     float dx = l->p2.x - l->p1.x;
     float dy = l->p2.y - l->p1.y;
     l->distance = sqrt(dx * dx + dy * dy);
 }
-
 void output(Line l) {
     printf("Length of the line between (%.2f, %.2f) and (%.2f, %.2f) is: %.2f\n",
            l.p1.x, l.p1.y, l.p2.x, l.p2.y, l.distance);
