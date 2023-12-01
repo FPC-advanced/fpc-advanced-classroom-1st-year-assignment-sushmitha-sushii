@@ -13,5 +13,9 @@ void dist(Point a, Point b, float *res);
 void output(Point a, Point b, float res);
 int main()
 {
-    
+    Point point1 , point2;
+    float distance;
+    point1=input();
+     point1=input();
+
 } 
