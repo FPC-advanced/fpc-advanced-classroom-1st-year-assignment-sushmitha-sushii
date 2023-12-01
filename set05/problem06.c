@@ -40,10 +40,10 @@ float odd_average(int n, int a[n])
     {
         return 0; 
     }
-
     return (float)sum / count;
 }
 
-void output(float avg) {
+void output(float avg) 
+{
     printf("\nAverage of odd elements in the array: %.2f\n", avg);
 }

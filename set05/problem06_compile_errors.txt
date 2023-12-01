@@ -1,0 +1,34 @@
+Compilation started at 12/1/2023, 6:29:42 PM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c: In function 'main':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:5:13: warning: implicit declaration of function 'input_n' [-Wimplicit-function-declaration]
+     int n = input_n();
+             ^~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:7:5: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     input(n, arr);
+     ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:8:21: warning: implicit declaration of function 'odd_average' [-Wimplicit-function-declaration]
+     float average = odd_average(n, arr);
+                     ^~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:9:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+     output(average);
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c: At top level:
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:19:6: warning: conflicting types for 'input'
+ void input(int n, int a[n])
+      ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:7:5: note: previous implicit declaration of 'input' was here
+     input(n, arr);
+     ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:27:7: error: conflicting types for 'odd_average'
+ float odd_average(int n, int a[n])
+       ^~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:8:21: note: previous implicit declaration of 'odd_average' was here
+     float average = odd_average(n, arr);
+                     ^~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:46:6: warning: conflicting types for 'output'
+ void output(float avg)
+      ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem06.c:9:5: note: previous implicit declaration of 'output' was here
+     output(average);
+     ^~~~~~
+Compilation finished at 12/1/2023, 6:29:43 PM
