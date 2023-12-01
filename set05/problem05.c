@@ -1,6 +1,13 @@
 //Write a program to find borga(x) given x.
 #include<stdio.h>
 #include<math.h>
+int main()
+{
+    int x = input(x);
+    float result = borga_X(x);
+    output(x, result);
+    return 0;
+}
 int input(int x) 
 {
     printf("Please input a number: ");
@@ -30,10 +37,3 @@ void output(int x, float result)
     printf("The result of borga_X(%d) is: %f\n", x, result);
 }
 
-int main() {
-    int x = input(x);
-    float result = borga_X(x);
-    output(x, result);
-
-    return 0;
-}
