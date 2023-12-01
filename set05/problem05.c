@@ -30,3 +30,10 @@ void output(int x, float result)
     printf("The result of borga_X(%d) is: %f\n", x, result);
 }
 
+int main() {
+    int x = input(x);
+    float result = borga_X(x);
+    output(x, result);
+
+    return 0;
+}
