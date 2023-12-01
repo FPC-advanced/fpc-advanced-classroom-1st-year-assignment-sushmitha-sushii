@@ -54,3 +54,10 @@ Compilation started at 12/1/2023, 6:36:55 PM
 Compilation finished at 12/1/2023, 6:36:56 PM
 Compilation started at 12/1/2023, 6:37:59 PM
 Compilation finished at 12/1/2023, 6:38:00 PM
+Compilation started at 12/1/2023, 6:41:50 PM
+In file included from c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:3:0:
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c: In function 'find_camel_weight':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:20:9: error: expected identifier or '(' before numeric constant
+     int M_PI;
+         ^
+Compilation finished at 12/1/2023, 6:41:50 PM
