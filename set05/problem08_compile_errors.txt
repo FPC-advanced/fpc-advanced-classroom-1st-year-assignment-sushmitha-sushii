@@ -42,3 +42,5 @@ c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      output(total_weight);
      ^~~~~~
 Compilation finished at 12/1/2023, 6:10:40 PM
+Compilation started at 12/1/2023, 6:14:01 PM
+Compilation finished at 12/1/2023, 6:14:02 PM
