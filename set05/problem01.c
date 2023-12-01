@@ -26,5 +26,8 @@ Point input()
     Point p;
     printf("Enter x coordinate: ");
     scanf("%f",&p.x);
-    
+    printf("Enter y coordinate: ");
+    scanf("%f",&p.y);
+    return p;
 }
+
