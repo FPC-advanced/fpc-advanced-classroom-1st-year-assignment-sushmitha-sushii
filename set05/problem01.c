@@ -16,6 +16,7 @@ int main()
     Point point1 , point2;
     float distance;
     point1=input();
-     point1=input();
+    point2=input();
+    dist(point1,point2,&distance);
 
 } 
