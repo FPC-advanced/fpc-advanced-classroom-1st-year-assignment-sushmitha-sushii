@@ -1,0 +1,10 @@
+Compilation started at 12/1/2023, 6:18:33 PM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem07.c: In function 'is_vowel':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem07.c:21:15: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+     c = (char)tolower(c);
+               ^~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem07.c: In function 'has_nice_name':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem07.c:32:20: warning: implicit declaration of function 'isalpha' [-Wimplicit-function-declaration]
+         } else if (isalpha(c[i]))
+                    ^~~~~~~
+Compilation finished at 12/1/2023, 6:18:34 PM

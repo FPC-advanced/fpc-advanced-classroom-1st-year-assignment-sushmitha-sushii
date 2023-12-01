@@ -29,17 +29,21 @@ int has_nice_name(char *c)
         if (is_vowel(c[i])) 
         {
             vowels++;
-        } else if (isalpha(c[i])) {
+        } else if (isalpha(c[i]))
+         {
             consonants++;
         }
     }
 
     return (vowels >= 2 && consonants >= 2);
 }
-void output(int res) {
-    if (res) {
+void output(int res) 
+{
+    if (res) 
+    {
         printf("\nThe camel does have a nice name\n");
-    } else {
+    } else
+     {
         printf("\nThe camel does not have a nice name\n");
     }
 }
