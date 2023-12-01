@@ -1,18 +1,18 @@
 //Write a program to find borga(x) given x.
 #include<stdio.h>
 #include<math.h>
-
-int input(int x) {
+int input(int x) 
+{
     printf("Please input a number: ");
     scanf("%d", &x);
     return x;
 }
-
-float borga_X(int x) {
+float borga_X(int x) 
+{
     float term = (float)x;
     float result = 1;
-
-    for(int i = 1; term > 0.000001; i++) {
+    for(int i = 1; term > 0.000001; i++)
+     {
         float p = pow(x, i);
         float n = 2 * i + 1;
         float fac = 1;
