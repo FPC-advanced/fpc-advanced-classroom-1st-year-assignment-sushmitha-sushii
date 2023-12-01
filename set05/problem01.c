@@ -18,5 +18,7 @@ int main()
     point1=input();
     point2=input();
     dist(point1,point2,&distance);
-
+    output(point1,point2,distance);
+    return 0;
 } 
+
