@@ -18,12 +18,14 @@ void input(char *name)
 }
 int is_vowel(char c) 
 {
-    c = (char)tolower(c);
+    int tolower();
+    c = (char) tolower(c);
     return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
 }
 
 int has_nice_name(char *c) 
 {
+    int isalpha();
     int vowels = 0, consonants = 0;
     for (int i = 0; c[i] != '\0'; i++) 
     {
