@@ -36,7 +36,7 @@ void dist(Point a, Point b, float *res)
 }
 void output(Point a, Point b, float res)
 {
-    printf("\nD")
+    printf("\n Distance between points (%.2f,)")
 }
 
 
