@@ -29,14 +29,15 @@ int has_nice_name(char *c)
         if (is_vowel(c[i])) 
         {
             vowels++;
-        } else if (isalpha(c[i]))
-         {
+        } else if (isalpha(c[i])) 
+        { 
             consonants++;
         }
     }
 
     return (vowels >= 2 && consonants >= 2);
 }
+
 void output(int res) 
 {
     if (res) 
