@@ -21,4 +21,8 @@ int main()
     output(point1,point2,distance);
     return 0;
 } 
-
+Point input()
+{
+    Point p;
+    printf("Enter x coordinate")
+}
