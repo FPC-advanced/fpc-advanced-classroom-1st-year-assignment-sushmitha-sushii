@@ -1,4 +1,4 @@
-//Tofind out if the name of the camel is a nice name.
+//To find out if the name of the camel is a nice name.
 #include <stdio.h>
 void input(char *name);
 int has_nice_name(char *c);
@@ -18,9 +18,10 @@ void input(char *name)
 }
 int is_vowel(char c) 
 {
-    c = (char)tolower(c);  
+    c = (char)tolower(c);
     return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
 }
+
 int has_nice_name(char *c) 
 {
     int vowels = 0, consonants = 0;
