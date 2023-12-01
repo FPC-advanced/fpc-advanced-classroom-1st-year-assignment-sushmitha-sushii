@@ -30,10 +30,13 @@ Point input()
     scanf("%f",&p.y);
     return p;
 }
-void dist(Point a, Point b, float *res);
+void dist(Point a, Point b, float *res)
 {
     *res=sqrt(pow(b.x-a.x,2)+pow(b.y-a.y,2));
 }
-void output(Point a, Point b, float res);
+void output(Point a, Point b, float res)
+{
+    printf("\nD")
+}
 
 
