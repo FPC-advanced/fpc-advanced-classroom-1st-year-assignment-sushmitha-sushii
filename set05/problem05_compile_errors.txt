@@ -23,3 +23,5 @@ c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      output(x, result);
      ^~~~~~
 Compilation finished at 12/1/2023, 7:10:05 PM
+Compilation started at 12/1/2023, 7:11:11 PM
+Compilation finished at 12/1/2023, 7:11:12 PM
