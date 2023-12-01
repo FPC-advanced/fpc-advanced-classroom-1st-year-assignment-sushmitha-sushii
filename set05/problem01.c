@@ -7,5 +7,11 @@ struct _point
   float y;
 };
 typedef struct _point Point;
+
 Point input();
-void 
+void dist(Point a, Point b, float *res);
+void output(Point a, Point b, float res);
+int main()
+{
+    
+} 
