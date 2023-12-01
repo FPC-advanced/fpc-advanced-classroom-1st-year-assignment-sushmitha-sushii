@@ -1,14 +1,5 @@
 // Write a program to find the average of all the odd elements in an array
 #include <stdio.h>
-int main() 
-{
-    int n = input_n();
-    int arr[n];
-    input(n, arr);
-    float average = odd_average(n, arr);
-    output(average);
-    return 0;
-}
 int input_n() 
 {
     int n;
@@ -46,4 +37,13 @@ float odd_average(int n, int a[n])
 void output(float avg) 
 {
     printf("\nAverage of odd elements in the array: %.2f\n", avg);
+}
+int main() 
+{
+    int n = input_n();
+    int arr[n];
+    input(n, arr);
+    float average = odd_average(n, arr);
+    output(average);
+    return 0;
 }

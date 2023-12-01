@@ -32,3 +32,5 @@ c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      output(average);
      ^~~~~~
 Compilation finished at 12/1/2023, 6:29:43 PM
+Compilation started at 12/1/2023, 6:30:22 PM
+Compilation finished at 12/1/2023, 6:30:23 PM
