@@ -1,0 +1,44 @@
+Compilation started at 12/1/2023, 6:10:16 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/1/2023, 6:10:17 PM
+Compilation started at 12/1/2023, 6:10:40 PM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c: In function 'main':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:15:5: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     input(n, camels, &truck_weight);
+     ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:16:5: warning: implicit declaration of function 'find_camel_weight' [-Wimplicit-function-declaration]
+     find_camel_weight(n, camels);
+     ^~~~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:17:26: warning: implicit declaration of function 'compute_total_weight' [-Wimplicit-function-declaration]
+     float total_weight = compute_total_weight(n, camels, truck_weight);
+                          ^~~~~~~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:18:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+     output(total_weight);
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c: At top level:
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:21:6: warning: conflicting types for 'input'
+ void input(int n, Camel c[n], float *truck_weight)
+      ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:15:5: note: previous implicit declaration of 'input' was here
+     input(n, camels, &truck_weight);
+     ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:32:6: warning: conflicting types for 'find_camel_weight'
+ void find_camel_weight(int n, Camel c[n])
+      ^~~~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:16:5: note: previous implicit declaration of 'find_camel_weight' was here
+     find_camel_weight(n, camels);
+     ^~~~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:40:7: error: conflicting types for 'compute_total_weight'
+ float compute_total_weight(int n, Camel c[n], float truck_weight)
+       ^~~~~~~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:17:26: note: previous implicit declaration of 'compute_total_weight' was here
+     float total_weight = compute_total_weight(n, camels, truck_weight);
+                          ^~~~~~~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:50:6: warning: conflicting types for 'output'
+ void output(float total_weight)
+      ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem08.c:18:5: note: previous implicit declaration of 'output' was here
+     output(total_weight);
+     ^~~~~~
+Compilation finished at 12/1/2023, 6:10:40 PM
