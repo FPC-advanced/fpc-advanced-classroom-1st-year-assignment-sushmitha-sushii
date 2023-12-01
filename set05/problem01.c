@@ -7,4 +7,5 @@ struct _point
   float y;
 };
 typedef struct _point Point;
-
+Point input();
+void 
