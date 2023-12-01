@@ -16,25 +16,17 @@ float borga_X(int x)
         float p = pow(x, i);
         float n = 2 * i + 1;
         float fac = 1;
-
-        for(int j = 1; j <= n; j++) {
+       for(int j = 1; j <= n; j++)
+        {
             fac *= j;
         }
-
         term = p / fac;
         result += term;
     }
-
     return result;
 }
-void output(int x, float result) {
+void output(int x, float result) 
+{
     printf("The result of borga_X(%d) is: %f\n", x, result);
 }
 
-int main() {
-    int x = input(x);
-    float result = borga_X(x);
-    output(x, result);
-
-    return 0;
-}
