@@ -19,7 +19,7 @@ void find_camel_weight(int n, Camel c[n])
 {
   for (int i = 0; i < n; ++i) 
     {
-        c[i].weight =M_PI * c[i].radius * c[i].radius * c[i].height * c[i].length;
+        c[i].weight = M_PI * c[i].radius * c[i].radius * c[i].height * c[i].length;
     }
 }
 float compute_total_weight(int n, Camel c[n], float truck_weight) 
