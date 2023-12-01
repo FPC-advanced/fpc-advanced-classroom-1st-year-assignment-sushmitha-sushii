@@ -1,1 +1,25 @@
 Compilation started at 12/1/2023, 7:10:05 PM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem05.c: In function 'main':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem05.c:6:13: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     int x = input(x);
+             ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem05.c:7:20: warning: implicit declaration of function 'borga_X' [-Wimplicit-function-declaration]
+     float result = borga_X(x);
+                    ^~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem05.c:8:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+     output(x, result);
+     ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem05.c: At top level:
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem05.c:17:7: error: conflicting types for 'borga_X'
+ float borga_X(int x)
+       ^~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem05.c:7:20: note: previous implicit declaration of 'borga_X' was here
+     float result = borga_X(x);
+                    ^~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem05.c:35:6: warning: conflicting types for 'output'
+ void output(int x, float result)
+      ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set05\problem05.c:8:5: note: previous implicit declaration of 'output' was here
+     output(x, result);
+     ^~~~~~
+Compilation finished at 12/1/2023, 7:10:05 PM
