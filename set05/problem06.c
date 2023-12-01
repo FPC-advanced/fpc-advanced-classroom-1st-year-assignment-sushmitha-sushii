@@ -16,24 +16,28 @@ int input_n()
     scanf("%d", &n);
     return n;
 }
-void input(int n, int a[n]) {
+void input(int n, int a[n]) 
+{
     printf("Enter the elements of the array:\n");
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i)
+     {
         scanf("%d", &a[i]);
     }
 }
-float odd_average(int n, int a[n]) {
+float odd_average(int n, int a[n]) 
+{
     int count = 0;
     int sum = 0;
-
-    for (int i = 0; i < n; ++i) {
-        if (a[i] % 2 != 0) {
+   for (int i = 0; i < n; ++i) 
+   {
+        if (a[i] % 2 != 0) 
+        {
             sum += a[i];
             count++;
         }
     }
-
-    if (count == 0) {
+    if (count == 0) 
+    {
         return 0; 
     }
 
