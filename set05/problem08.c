@@ -5,19 +5,6 @@ typedef struct _camel
 {
     float radius, height, length, weight;
 } Camel;
-int main() 
-{
-    int n;
-    float truck_weight;
-    printf("Enter the number of camels: ");
-    scanf("%d", &n);
-    Camel camels[n];
-    input(n, camels, &truck_weight);
-    find_camel_weight(n, camels);
-    float total_weight = compute_total_weight(n, camels, truck_weight);
-    output(total_weight);
-    return 0;
-}
 void input(int n, Camel c[n], float *truck_weight) 
 {
     printf("Enter the weight of the truck: ");
@@ -46,8 +33,20 @@ float compute_total_weight(int n, Camel c[n], float truck_weight)
     }
     return total_weight;
 }
-
 void output(float total_weight) 
 {
     printf("\nTotal weight of the truck load: %.2f\n", total_weight);
+}
+int main() 
+{
+    int n;
+    float truck_weight;
+    printf("Enter the number of camels: ");
+    scanf("%d", &n);
+    Camel camels[n];
+    input(n, camels, &truck_weight);
+    find_camel_weight(n, camels);
+    float total_weight = compute_total_weight(n, camels, truck_weight);
+    output(total_weight);
+    return 0;
 }
