@@ -1,4 +1,4 @@
-//To find the weight of a truck load of n camels.
+//To find the weight of a truck load of n camels
 #include <stdio.h>
 #include <math.h>
 #ifndef M_PI
