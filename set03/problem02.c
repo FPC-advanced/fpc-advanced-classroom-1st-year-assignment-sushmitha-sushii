@@ -35,9 +35,9 @@ int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3)
     side3 = distance(x3, y3, x1, y1);
     if (side1 + side2 > side3 && side2 + side3 > side1 && side3 + side1 > side2) 
     {
-        return 1; // It's a triangle
+        return 1; 
     } else {
-        return 0; // It's not a triangle
+        return 0;
     }
 }
 void output(float x1, float y1, float x2, float y2, float x3, float y3, int result) 
