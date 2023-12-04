@@ -1,4 +1,4 @@
-//To program to find the distance between 2 points
+//To program to find the distance between 2 points.
 #include<stdio.h>
 #include<math.h>
 void input(float *x1, float *y1, float *x2, float *y2);
