@@ -22,7 +22,6 @@ Fraction find_smallest(Fraction frac1, Fraction frac2, Fraction frac3)
     frac2.den = common_den;
     frac3.num *= common_den / frac3.den;
     frac3.den = common_den;
-
     if ((frac1.num * frac2.den) < (frac2.num * frac1.den) && (frac1.num * frac3.den) < (frac3.num * frac1.den)) 
     {
         return frac1;
