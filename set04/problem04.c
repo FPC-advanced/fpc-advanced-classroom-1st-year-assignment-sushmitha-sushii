@@ -50,21 +50,15 @@ float evaluate_polynomial(int n, float a[n], float x)
 void output(int n, float a[n], float x, float result)
  {
     printf("The polynomial ");
-    for (int i = 0; i <= n; i++) {
-        if (i == n) {
+    for (int i = 0; i <= n; i++)
+     {
+        if (i == n)
+         {
             printf("%.2f", a[i]);
-        } else {
+        } else
+         {
             printf("%.2fx^%d + ", a[i], n - i);
-        }
+         }
     }
     printf(" evaluated at x = %.2f is %.2f.\n", x, result);
-}
-int main() {
-    int n = input_degree();
-    float a[n];
-    input_coefficients(n, a);
-    float x = input_x();
-    float result = evaluate_polynomial(n, a, x);
-    output(n, a, x, result);
-    return 0;
 }
