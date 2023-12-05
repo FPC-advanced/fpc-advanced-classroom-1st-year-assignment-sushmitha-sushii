@@ -1,4 +1,4 @@
-//Write a program to add two fractions.
+//To  add two fractions.
 #include <stdio.h>
 typedef struct {
     int num, den;
