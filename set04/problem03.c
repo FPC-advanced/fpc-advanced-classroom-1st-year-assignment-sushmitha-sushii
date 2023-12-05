@@ -21,10 +21,12 @@ int nCr(int n, int r)
 {
     return factorial(n) / (factorial(r) * factorial(n - r));
 }
-void output(int n, int r, int result) {
+void output(int n, int r, int result) 
+{
     printf("For n = %d and r = %d, nCr = %d\n", n, r, result);
 }
-int main() {
+int main() 
+{
     int n, r;
     input_n_and_r(&n, &r);
     int result = nCr(n, r);
