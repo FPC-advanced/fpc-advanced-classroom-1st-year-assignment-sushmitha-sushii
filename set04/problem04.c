@@ -16,22 +16,23 @@ int main()
     return 0;
 }
 int input_degree()
- {
+{
     int n;
     printf("Enter the degree of the polynomial: ");
     scanf("%d", &n);
     return n;
 }
 
-void input_coefficients(int n, float a[n]) {
+void input_coefficients(int n, float a[n]) 
+{
     printf("Enter the coefficients of the polynomial from highest degree to constant term:\n");
     for (int i = 0; i <= n; i++) {
         printf("Coefficient of x^%d: ", n - i);
         scanf("%f", &a[i]);
     }
 }
-
-float input_x() {
+float input_x() 
+{
     float x;
     printf("Enter the value of x to evaluate the polynomial: ");
     scanf("%f", &x);
