@@ -4,17 +4,6 @@ typedef struct fraction
 {
     int num, den;
 } fr;
-int main()
-{
-   int n ;
-   n=input_n();
-  fr f[n],f1;
-  input_n_fractions(n,f);
-  f1=add_n_fractions(n,f);
-  output(f1);
-  return 0;
-  
-}
 int input_n()
 {
     printf("pls enter the num of fractions: ");
@@ -73,4 +62,15 @@ fr add_n_fractions(int n, fr f[n])
 void output(fr f1)
 {
     printf("%i/%i",f1.num,f1.den);
+}
+int main()
+{
+   int n ;
+   n=input_n();
+  fr f[n],f1;
+  input_n_fractions(n,f);
+  f1=add_n_fractions(n,f);
+  output(f1);
+  return 0;
+  
 }
