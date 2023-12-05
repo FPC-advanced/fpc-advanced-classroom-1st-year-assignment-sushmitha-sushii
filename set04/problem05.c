@@ -16,24 +16,19 @@ void input_array(int n, int a[n])
         scanf("%d", &a[i]);
     }
 }
-    int find_largest_index(int n, int a[n]) {
+    int find_largest_index(int n, int a[n])
+    {
     int maxIndex=0;
-    for (int i = 1; i < n; i++) {
-        if (a[i] > a[maxIndex]) {
+    for (int i = 1; i < n; i++) 
+    {
+        if (a[i] > a[maxIndex])
+        {
             maxIndex = i;
         }
     }
     return maxIndex;
 }
-void output(int index){
+void output(int index)
+{
 printf("index of the largest number is%d",index);
-}
-
-int main() {
-    int size = input_size();
-    int array[size];
-    input_array(size, array);
-    int largestIndex = find_largest_index(size, array);
-    output(largestIndex);
-    return 0;
 }
