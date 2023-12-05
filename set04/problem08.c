@@ -48,8 +48,8 @@ int find_gcd(int a, int b)
   }
   return a;
 }
-
-fr add_fractions(fr f1,fr f2){
+fr add_fractions(fr f1,fr f2)
+{
   fr a,sum;
   a.num = (f1.num * f2.den) + (f2.num * f1.den);
   a.den = f1.den * f2.den;
@@ -59,15 +59,16 @@ fr add_fractions(fr f1,fr f2){
   f1=sum;
   return f1;
 }
-
-fr add_n_fractions(int n, fr f[n]){
+fr add_n_fractions(int n, fr f[n])
+{
   fr f1=f[0];
-  for(int i=1;i<n;i++){
+  for(int i=1;i<n;i++)
+  {
     f1=add_fractions(f1,f[i]);
-}
+  }
   return f1;
 }
-
-void output(fr f1){
+void output(fr f1)
+{
     printf("%i/%i",f1.num,f1.den);
 }
