@@ -38,18 +38,17 @@ float input_x()
     scanf("%f", &x);
     return x;
 }
-
-float evaluate_polynomial(int n, float a[n], float x) {
+float evaluate_polynomial(int n, float a[n], float x) 
+{
     float result = a[0]; 
-
-    for (int i = 1; i <= n; i++) {
+   for (int i = 1; i <= n; i++) 
+   {
         result = result * x + a[i];
-    }
-
-    return result;
+   }
+   return result;
 }
-
-void output(int n, float a[n], float x, float result) {
+void output(int n, float a[n], float x, float result)
+ {
     printf("The polynomial ");
     for (int i = 0; i <= n; i++) {
         if (i == n) {
