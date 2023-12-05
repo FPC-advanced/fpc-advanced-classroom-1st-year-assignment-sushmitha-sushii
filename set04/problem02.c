@@ -4,7 +4,6 @@ typedef struct
 {
     int num, den;
 } Fraction;
-
 Fraction input_fraction() 
 {
     Fraction frac;
@@ -34,17 +33,17 @@ Fraction find_smallest(Fraction frac1, Fraction frac2, Fraction frac3)
         return frac3;
     }
 }
-
-void output(Fraction smallest) {
+void output(Fraction smallest) 
+{
     printf("The smallest fraction is %d/%d\n", smallest.num, smallest.den);
 }
-int main() {
+int main() 
+{
     Fraction frac1, frac2, frac3, smallest;
     frac1 = input_fraction();
     frac2 = input_fraction();
     frac3 = input_fraction();
     smallest = find_smallest(frac1, frac2, frac3);
-    output(smallest);
-
+    output(smallest); 
     return 0;
 }
