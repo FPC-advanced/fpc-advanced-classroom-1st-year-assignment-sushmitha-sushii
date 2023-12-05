@@ -43,5 +43,5 @@ void input_array(int n, int a[n])
 }
 void output(int index)
 {
-printf("index of the largest number is%d",index);
+printf("index of the largest number is %d",index);
 }
