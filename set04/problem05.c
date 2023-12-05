@@ -1,5 +1,18 @@
 // Write a program to find the index of the largest number in an array
 #include<stdio.h>
+int input_size();
+void input_array(int n, int a[n]);
+int find_largest_index(int n, int a[n]);
+void output(int index);
+int main() 
+{
+    int size = input_size();
+    int array[size];
+    input_array(size, array);
+    int largestIndex = find_largest_index(size, array);
+    output(largestIndex);
+    return 0;
+}
 int input_size()
 {
     int size;
