@@ -1,1 +1,37 @@
 Compilation started at 12/5/2023, 9:15:15 AM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c: In function 'main':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:9:9: warning: implicit declaration of function 'input_n' [-Wimplicit-function-declaration]
+   int n=input_n();
+         ^~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:11:3: warning: implicit declaration of function 'input_n_fractions' [-Wimplicit-function-declaration]
+   input_n_fractions(n,f);
+   ^~~~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:12:6: warning: implicit declaration of function 'add_n_fractions' [-Wimplicit-function-declaration]
+   f1=add_n_fractions(n,f);
+      ^~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:12:5: error: incompatible types when assigning to type 'fr {aka struct fraction}' from type 'int'
+   f1=add_n_fractions(n,f);
+     ^
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:13:3: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   output(f1);
+   ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c: At top level:
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:32:6: warning: conflicting types for 'input_n_fractions'
+ void input_n_fractions(int n, fr f[n])
+      ^~~~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:11:3: note: previous implicit declaration of 'input_n_fractions' was here
+   input_n_fractions(n,f);
+   ^~~~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:62:4: error: conflicting types for 'add_n_fractions'
+ fr add_n_fractions(int n, fr f[n])
+    ^~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:12:6: note: previous implicit declaration of 'add_n_fractions' was here
+   f1=add_n_fractions(n,f);
+      ^~~~~~~~~~~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:71:6: warning: conflicting types for 'output'
+ void output(fr f1)
+      ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-sushmitha-sushii\set04\problem08.c:13:3: note: previous implicit declaration of 'output' was here
+   output(f1);
+   ^~~~~~
+Compilation finished at 12/5/2023, 9:15:17 AM
