@@ -1,17 +1,14 @@
 //Write a program to add two fractions.
 #include <stdio.h>
-
 typedef struct {
     int num, den;
 } Fraction;
-
 Fraction input_fraction();
 int find_gcd(int a, int b);
 Fraction add_fractions(Fraction f1, Fraction f2);
 void output(Fraction f1, Fraction f2, Fraction sum);
-
-
-int main() {
+int main() 
+{
     Fraction fraction1, fraction2, result;
     fraction1 = input_fraction();
     fraction2 = input_fraction();
@@ -19,8 +16,8 @@ int main() {
     output(fraction1, fraction2, result);
     return 0;
 }
-
-Fraction input_fraction() {
+Fraction input_fraction()
+{
     Fraction f;
     printf("Enter numerator: ");
     scanf("%d", &f.num);
@@ -28,13 +25,12 @@ Fraction input_fraction() {
     scanf("%d", &f.den);
     return f;
 }
-
-int find_gcd(int a, int b) {
+int find_gcd(int a, int b) 
+{
     if (b == 0)
         return a;
     return find_gcd(b, a % b);
 }
-
 Fraction add_fractions(Fraction f1, Fraction f2) {
     Fraction result;
     result.num = f1.num * f2.den + f2.num * f1.den;
