@@ -1,5 +1,5 @@
 //To add n fractions
-#include <stdio.h>
+#include<stdio.h>
 typedef struct fraction
 {
     int num, den;
