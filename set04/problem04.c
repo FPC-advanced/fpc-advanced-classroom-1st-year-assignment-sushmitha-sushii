@@ -1,13 +1,22 @@
 //Write a program to evaluate a polynomial at a given point using [Horner's Method]
 #include <stdio.h>
-
 int input_degree();
 void input_coefficients(int n, float a[n]);
 float input_x();
 float evaluate_polynomial(int n, float a[n], float x);
 void output(int n, float a[n], float x, float result);
-
-int input_degree() {
+int main() 
+{
+    int n = input_degree();
+    float a[n];
+    input_coefficients(n, a);
+    float x = input_x();
+    float result = evaluate_polynomial(n, a, x);
+    output(n, a, x, result);
+    return 0;
+}
+int input_degree()
+ {
     int n;
     printf("Enter the degree of the polynomial: ");
     scanf("%d", &n);
