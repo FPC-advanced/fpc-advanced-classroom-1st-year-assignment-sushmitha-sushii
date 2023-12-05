@@ -12,6 +12,7 @@ int main()
   input_n_fractions(n,f);
   f1=add_n_fractions(n,f);
   output(f1);
+  return 0;
   
 }
 int input_n()
