@@ -4,14 +4,24 @@ typedef struct fraction
 {
     int num, den;
 } fr;
-
-int input_n(){
+int main()
+{
+  int n=input_n();
+  fr f[n],f1;
+  input_n_fractions(n,f);
+  f1=add_n_fractions(n,f);
+  output(f1);
+  
+}
+int input_n()
+{
     printf("pls enter the num of fractions: ");
     int x;
     scanf("%d",&x);
     return x;
 }
-fr input_fraction(){
+fr input_fraction()
+{
     fr a;
     printf("num: ");
     scanf("%i", &a.num);
@@ -19,16 +29,19 @@ fr input_fraction(){
     scanf("%i",&a.den);
     return a;
 }
-void input_n_fractions(int n, fr f[n]){
+void input_n_fractions(int n, fr f[n])
+{
     int i;
-    for(i=0;i<n;i++){
+    for(i=0;i<n;i++)
+    {
         f[i]=input_fraction();
     }
 }
-
-int find_gcd(int a, int b){
+int find_gcd(int a, int b)
+{
   int r,gcd;
-  while(b!=0){
+  while(b!=0)
+  {
     r=a%b;
     a=b;
     b=r;
