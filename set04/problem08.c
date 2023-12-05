@@ -6,7 +6,8 @@ typedef struct fraction
 } fr;
 int main()
 {
-  int n=input_n();
+    int n ;
+   n=input_n();
   fr f[n],f1;
   input_n_fractions(n,f);
   f1=add_n_fractions(n,f);
